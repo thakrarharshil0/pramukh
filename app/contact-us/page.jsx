@@ -343,7 +343,7 @@ export default function ContactPage() {
                 <div className="flex flex-col gap-6">
                   <ContactItem icon={<Mail size={22} />} title="Email Support" value="pramukhpts@gmail.com" />
                   <ContactItem icon={<Phone size={22} />} title="Contact Number" value="+91 9912991220" />
-                  <ContactItem icon={<Building size={22} />} title="Head Office" value="Pramukh Residency, 5th Floor, Plot No.38, D.V. Colony, Minister Road, Hyderabad, Telangana - 500003" isHeadOffice={true} />
+                  <ContactItem icon={<Building size={22} />} title="Head Office - Hyderabad" value="Pramukh Residency, 5th Floor, Plot No.38, D.V. Colony, Minister Road, Hyderabad, Telangana - 500003" isHeadOffice={true} />
 
                   {/* Head Office Map Embed */}
                   <div className="mt-4 w-full h-[220px] min-[2500px]:h-[400px] rounded-2xl overflow-hidden shadow-md border-2 border-[#0095aa]/10 transition-all hover:border-[#0095aa]/30">
