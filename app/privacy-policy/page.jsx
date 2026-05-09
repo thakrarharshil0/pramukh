@@ -7,21 +7,21 @@ const PrivacyPolicy = () => {
     <div className="bg-white min-h-screen py-16 lg:py-24">
       <div className="max-w-4xl mx-auto px-6 lg:px-8">
         <h1 className="text-4xl font-bold text-slate-900 mb-2">Privacy Policy</h1>
-        <p className="text-xl font-medium text-slate-800 mb-1">Unified Post Tensioning Systems LLP</p>
+        <p className="text-xl font-medium text-slate-800 mb-1">Pramukh Post Tensioning Systems PVT. LTD.</p>
         <p className="text-sm text-slate-500 mb-12">Effective Date: 28 March 2026</p>
 
         <div className="space-y-10 text-slate-700 leading-relaxed">
-          
+
           {/* 1. Introduction */}
           <section>
             <h2 className="text-2xl font-bold text-slate-900 mb-6">1. Introduction</h2>
             <div className="space-y-4">
               <p>
-                Unified Post Tensioning Systems LLP (“Company”, “we”, “our”, or “us”) values your privacy 
+                Pramukh Post Tensioning Systems PVT. LTD. (“Company”, “we”, “our”, or “us”) values your privacy
                 and is committed to protecting your personal information.
               </p>
               <p>
-                This Privacy Policy explains how we collect, use, store, and safeguard your data when you 
+                This Privacy Policy explains how we collect, use, store, and safeguard your data when you
                 visit our website or interact with our services.
               </p>
             </div>
@@ -89,7 +89,7 @@ const PrivacyPolicy = () => {
             <h2 className="text-2xl font-bold text-slate-900 mb-6">5. Data Security</h2>
             <div className="space-y-4">
               <p>
-                We implement appropriate technical and organizational measures to protect your data from 
+                We implement appropriate technical and organizational measures to protect your data from
                 unauthorized access, misuse, or loss.
               </p>
               <p>
@@ -118,7 +118,7 @@ const PrivacyPolicy = () => {
             <div className="space-y-4">
               <p>Our website may contain links to external websites.</p>
               <p>
-                We are not responsible for the privacy practices, content, or policies of those third-party 
+                We are not responsible for the privacy practices, content, or policies of those third-party
                 platforms.
               </p>
             </div>
@@ -129,7 +129,7 @@ const PrivacyPolicy = () => {
             <h2 className="text-2xl font-bold text-slate-900 mb-6">8. Data Retention</h2>
             <div className="space-y-4">
               <p>
-                We retain personal data only for as long as necessary to fulfill business purposes or comply 
+                We retain personal data only for as long as necessary to fulfill business purposes or comply
                 with legal obligations.
               </p>
             </div>
@@ -164,10 +164,10 @@ const PrivacyPolicy = () => {
                 <li>Technical materials</li>
               </ul>
               <p>
-                is the exclusive property of Unified Post Tensioning Systems LLP, unless otherwise stated.
+                is the exclusive property of Pramukh Post Tensioning Systems PVT. LTD., unless otherwise stated.
               </p>
               <p>
-                Any unauthorized use, reproduction, distribution, or copying of this content without prior 
+                Any unauthorized use, reproduction, distribution, or copying of this content without prior
                 written permission is strictly prohibited and may lead to legal action.
               </p>
             </div>
@@ -178,7 +178,7 @@ const PrivacyPolicy = () => {
             <h2 className="text-2xl font-bold text-slate-900 mb-6">11. Changes to This Policy</h2>
             <div className="space-y-4">
               <p>
-                We reserve the right to update this Privacy Policy at any time. Updates will be reflected on 
+                We reserve the right to update this Privacy Policy at any time. Updates will be reflected on
                 this page with a revised effective date.
               </p>
             </div>
@@ -188,9 +188,9 @@ const PrivacyPolicy = () => {
           <section className="pt-10 border-t border-slate-100">
             <h2 className="text-2xl font-bold text-slate-900 mb-6">12. Contact Us</h2>
             <div className="space-y-2">
-              <p className="font-semibold text-slate-900">Unified Post Tensioning Systems LLP</p>
-              <p>Email: <a href="mailto:unifiedpts@gmail.com" className="text-blue-600 hover:underline">unifiedpts@gmail.com</a></p>
-              <p>Phone: +91 95740 76889</p>
+              <p className="font-semibold text-slate-900">Pramukh Post Tensioning Systems PVT. LTD.</p>
+              <p>Email: <a href="mailto:pramukhpts@gmail.com" className="text-blue-600 hover:underline">pramukh.pmss@gmail.com</a></p>
+              <p>Phone: +91 99129 91220</p>
             </div>
           </section>
 

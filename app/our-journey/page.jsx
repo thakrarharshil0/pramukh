@@ -444,7 +444,7 @@ const OurJourney = () => {
 
             {/* Paragraph 3 */}
             <p className="text-[1.1rem] leading-relaxed text-gray-700 text-justify font-medium indent-12 mt-5 min-[2500px]:text-4xl">
-              Rather than treating PT as an isolated site task, Unified embedded a process-led
+              Rather than treating PT as an isolated site task, Pramukh embedded a process-led
               methodology understanding structural intent, controlling tendon layouts and
               sequencing, executing with precision, and documenting every stressing operation
               as per defined standards.

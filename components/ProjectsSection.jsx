@@ -107,7 +107,7 @@ const ProjectsSection = () => {
         <div className="projects-closing">
           <p>
             Across all building typologies, PT creates measurable structural and
-            commercial advantages — executed by Unified with precision and
+            commercial advantages — executed by Pramukh with precision and
             accountability.
           </p>
         </div>
@@ -128,7 +128,7 @@ const ProjectsSection = () => {
         </div>
       </div>
     </section>
-    );
+  );
 };
 
 export default ProjectsSection;

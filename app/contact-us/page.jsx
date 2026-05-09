@@ -63,8 +63,8 @@ export default function ContactPage() {
 
           // Add Markers
           const locations = [
-            { name: "Mumbai (Head Office)", lat: 19.11123, lng: 72.91829, color: "red" },
-            { name: "Hyderabad", lat: 17.4338, lng: 78.4877, color: "yellow" },
+            { name: "Hyderabad (Head Office)", lat: 17.4162, lng: 78.4757, color: "red" },
+            { name: "Mumbai", lat: 19.11123, lng: 72.91829, color: "yellow" },
             { name: "Vadodara", lat: 22.3167, lng: 73.1678, color: "yellow" },
             { name: "Pune", lat: 18.6298, lng: 73.8446, color: "yellow" },
             { name: "Indore", lat: 22.7533, lng: 75.8948, color: "yellow" },
@@ -191,8 +191,8 @@ export default function ContactPage() {
 
   const cities = [
     {
-      name: "Hyderabad",
-      address: "Pramukh Residency, 5th Floor, Plot No.38, D.V. Colony, Minister Road, Hyderabad, Telangana - 500003",
+      name: "Mumbai",
+      address: "C-1804-1807, Kailash Business Park, Vikhroli West, Mumbai, Maharashtra - 400079",
     },
     {
       name: "Vadodara",
@@ -341,14 +341,14 @@ export default function ContactPage() {
               <div className="flex flex-col gap-6">
                 <h4 className="text-[#1a2a5e] text-2xl min-[2500px]:text-3xl font-black border-b-2 pb-2 uppercase border-black tracking-tighter">Get in Touch</h4>
                 <div className="flex flex-col gap-6">
-                  <ContactItem icon={<Mail size={22} />} title="Email Support" value="unifiedpts@gmail.com" />
-                  <ContactItem icon={<Phone size={22} />} title="Contact Number" value="+91 95740 76889" />
-                  <ContactItem icon={<Building size={22} />} title="Head Office" value="C-1804-1807, Kailash Business Park, Vikhroli West, Mumbai - 400079" isHeadOffice={true} />
+                  <ContactItem icon={<Mail size={22} />} title="Email Support" value="pramukhpts@gmail.com" />
+                  <ContactItem icon={<Phone size={22} />} title="Contact Number" value="+91 9912991220" />
+                  <ContactItem icon={<Building size={22} />} title="Head Office" value="Pramukh Residency, 5th Floor, Plot No.38, D.V. Colony, Minister Road, Hyderabad, Telangana - 500003" isHeadOffice={true} />
 
                   {/* Head Office Map Embed */}
                   <div className="mt-4 w-full h-[220px] min-[2500px]:h-[400px] rounded-2xl overflow-hidden shadow-md border-2 border-[#0095aa]/10 transition-all hover:border-[#0095aa]/30">
                     <iframe
-                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3770.0163351989065!2d72.91829!3d19.11123!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c7f763f68349%3A0xc023f03403248384!2sKailash%20Business%20Park!5e0!3m2!1sen!2sin!4v1710570000000!5m2!1sen!2sin"
+                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3806.9691905626884!2d78.47573037508496!3d17.41620608348574!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb97475148f385%3A0x63351ec6a38096f9!2sPramukh%20Residency%2C%20Minister%20Rd%2C%20D.V.%20Colony%2C%20Ramgopalpet%2C%20Secunderabad%2C%20Telangana%20500003!5e0!3m2!1sen!2sin!4v1714410000000!5m2!1sen!2sin"
                       width="100%"
                       height="100%"
                       style={{ border: 0 }}

@@ -87,10 +87,10 @@ const WhyUnified = () => {
         {/* Header */}
         <div className="why-unified-header">
           <h2 className="text-[#1a2a5e] font-anton font-black text-center relative z-10 text-[clamp(2.5rem,7vw,5rem)] pt-12 min-[2500px]:text-[8rem] min-[2500px]:mt-20">
-            WHY UNIFIED
+            WHY PRAMUKH
           </h2>
           <div className="absolute inset-0 hidden xl:flex justify-center font-['Impact'] text-[120px] text-black/5 uppercase pointer-events-none min-[2500px]:text-[200px]">
-            WHY UNIFIED
+            WHY PRAMUKH
           </div>
         </div>
 
@@ -101,7 +101,7 @@ const WhyUnified = () => {
             <strong>Engineering Intent and Site Execution are Perfectly Aligned.</strong>
           </p>
           <p className="why-unified-text">
-            Unified is chosen not just for the system we provide, but for the{' '}
+            Pramukh is chosen not just for the system we provide, but for the{' '}
             <strong>Discipline, Accuracy, and Reliability with which we deliver it.</strong>
           </p>
         </div>

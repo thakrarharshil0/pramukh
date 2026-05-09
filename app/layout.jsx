@@ -9,17 +9,17 @@ import WhatsAppButton from "@/components/WhatsAppButton";
 import AnalyticsTracker from "@/app/components/AnalyticsTracker";
 
 export const metadata = {
-  title: "Unified Post Tensioning Systems | PT Contractors India",
-  description: "Unified Post Tensioning Systems is a leading PT company in India providing expert bonded and unbonded post-tensioning slab construction, design, and execution services for commercial, residential, and infrastructure projects.",
+  title: "Pramukh Post Tensioning Systems PVT. LTD. | PT Contractors India",
+  description: "Pramukh Post Tensioning Systems PVT. LTD. is a leading PT company in India providing expert bonded and unbonded post-tensioning slab construction, design, and execution services for commercial, residential, and infrastructure projects.",
   keywords: [
-    "Unified Post Tensioning Systems",
-    "Unified PT India",
-    "Unified engineering solutions",
-    "Build with Unified PT",
-    "Unified structural systems India",
-    "Unified PT contractors",
-    "Unified slab solutions",
-    "Unified infrastructure systems",
+    "Pramukh Post Tensioning Systems PVT. LTD.",
+    "Pramukh PT India",
+    "Pramukh engineering solutions",
+    "Build with Pramukh PT",
+    "Pramukh structural systems India",
+    "Pramukh PT contractors",
+    "Pramukh slab solutions",
+    "Pramukh infrastructure systems",
     "Post Tensioning Systems India",
     "Post Tensioning Company India",
     "PT Contractors India",

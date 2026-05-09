@@ -76,7 +76,7 @@ export default function Page() {
     {
       number: '01',
       title: 'INITIAL BRIEFING',
-      description: 'We receive inquiries through email. To prepare the preliminary drawings and quotations, we require the structural and architectural layouts, which should be sent to "unifiedpts@gmail.com"',
+      description: 'We receive inquiries through email. To prepare the preliminary drawings and quotations, we require the structural and architectural layouts, which should be sent to "pramukhpts@gmail.com"',
       icon: '/iconspngs/1.png'
     },
     {
@@ -167,7 +167,7 @@ export default function Page() {
         <div className="relative z-10 text-center px-6">
           {/* Main Heading */}
           <h1 className="text-white text-shadow-lg tracking-wider font-anton font-normal text-[clamp(3rem,8vw,6rem)] font-black">
-            EXECUTION PROCESS
+            PROJECT WORKFLOW
           </h1>
 
         </div>
@@ -204,7 +204,7 @@ export default function Page() {
         <div className="relative z-10">
           <Container>
             <SectionTitle
-              title="Execution Process"
+              title="PROJECT WORKFLOW"
               titleClassName="font-anton tracking-wider text-[#1a2a5e]"
               subtitleClassName="font-bold"
             />

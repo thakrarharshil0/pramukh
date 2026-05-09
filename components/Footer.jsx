@@ -56,8 +56,8 @@ const Footer = () => {
           <div className="flex flex-col md:col-span-2 lg:col-span-1 text-center lg:text-left">
             <div className="mb-8">
               <img
-                src="/assets/Unified New Logo.png"
-                alt="Unified Post Tensioning Systems LLP"
+                src="/assets/Pramukh_Post _Tensioning_Systems_PVT.LTD.png"
+                alt="Pramukh Post-Tensioning Systems PVT. LTD."
                 className="h-14 min-[2500px]:h-28 w-auto object-contain brightness-0 invert mx-auto lg:mx-0 mb-6"
               />
               <p className="text-base min-[2500px]:text-2xl font-medium text-slate-200 mb-2 leading-tight">
@@ -67,9 +67,9 @@ const Footer = () => {
                 In Partnership With
               </p>
               <img
-                src="/assets/Pramukh_Post _Tensioning_Systems_PVT.LTD.png"
-                alt="Pramukh Post Tensioning Systems PVT. LTD."
-                className="h-10 min-[2500px]:h-14 w-auto object-contain brightness-0 invert mx-auto lg:mx-0"
+                src="/assets/Unified New Logo.png"
+                alt="Unified Post Tensioning Systems"
+                className="h-14 min-[2500px]:h-14 w-auto object-contain brightness-0 invert mx-auto lg:mx-0"
               />
             </div>
 
@@ -124,21 +124,21 @@ const Footer = () => {
             <div className="space-y-4 min-[2500px]:space-y-8 text-sm min-[2500px]:text-xl text-slate-300">
               <div className="flex items-start gap-3 min-[2500px]:gap-5 justify-center lg:justify-start">
                 <FaMapMarkerAlt className="text-[#0095AA] mt-1 min-[2500px]:text-2xl" />
-                <p>C-1804-1807, Kailash Business Park, Vikhroli West, Mumbai, Maharashtra - 400079</p>
+                <p>Pramukh Residency, 5th Floor, Plot No.38, D.V. Colony, Minister Road, Hyderabad, Telangana - 500003</p>
               </div>
               <div className="flex items-start gap-3 min-[2500px]:gap-5 justify-center lg:justify-start">
                 <FaPhone className="text-[#0095AA] mt-1 min-[2500px]:text-2xl scale-x-[-1]" />
-                <p>+91 95740 76889</p>
+                <p>+91 99129 91220</p>
               </div>
               <div className="flex items-start gap-3 min-[2500px]:gap-5 justify-center lg:justify-start">
                 <FaEnvelope className="text-[#0095AA] mt-1 min-[2500px]:text-2xl" />
-                <p>unifiedpts@gmail.com</p>
+                <p>pramukhpts@gmail.com</p>
               </div>
             </div>
             <div className="flex mt-8 justify-center lg:justify-start gap-3 min-[2500px]:gap-6">
               {[
                 { Icon: FaFacebookF, href: "https://www.facebook.com/UnifiedPTS/" },
-                { Icon: FaInstagram, href: "https://www.instagram.com/unified_pts_llp/?hl=en" },
+                { Icon: FaInstagram, href: "https://www.instagram.com/pramukh_mss_pvt.ltd/" },
                 { Icon: FaXTwitter, href: "https://x.com/Unified_PTS_LLP" },
                 { Icon: FaLinkedinIn, href: "https://www.linkedin.com/company/unifiedpt/?viewAsMember=true" },
                 { Icon: FaYoutube, href: "https://www.youtube.com/@UNIFIEDPTS1915" }
@@ -165,7 +165,12 @@ const Footer = () => {
       {/* Bottom */}
       <div className="relative z-10 bg-black/20 px-6 lg:px-16 py-5 min-[2500px]:py-10">
         <div className="max-w-[1400px] min-[2500px]:max-w-[2200px] mx-auto flex flex-col items-center gap-4 text-xs min-[2500px]:text-lg text-slate-400">
-          <p className="text-center">© {currentYear} Unified Post Tensioning Systems LLP. All Rights Reserved.</p>
+          <div className="text-center">
+            <p>© {currentYear} Pramukh Post Tensioning Systems PVT. LTD. All Rights Reserved.</p>
+            <p className="mt-1">
+              Designed & Developed by <span className="text-[#0095AA] font-semibold">Digital Creators</span>
+            </p>
+          </div>
           <div className="flex gap-4">
             <Link href="/privacy-policy" className="hover:text-[#0095AA]">
               Privacy Policy

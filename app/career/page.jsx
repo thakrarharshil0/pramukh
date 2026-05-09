@@ -537,7 +537,7 @@ const Careers = () => {
         <div className="relative z-10 text-center px-6 pb-12">
           {/* Main Heading */}
           <h1 className="text-white text-shadow-lg tracking-wider font-anton font-normal text-[clamp(3rem,8vw,6rem)] font-black">
-            CAREER AT UNIFIED
+            CAREER AT PRAMUKH
           </h1>
 
           {/* Paragraph */}
@@ -589,7 +589,7 @@ const Careers = () => {
               </h2>
 
               <p className="text-gray-600 text-justify leading-relaxed mb-5">
-                At Unified, our strength lies in the people who plan,
+                At Pramukh, our strength lies in the people who plan,
                 execute, and deliver post-tensioning systems with
                 precision and accountability.
               </p>
@@ -634,7 +634,7 @@ const Careers = () => {
             <div className="relative animate-gradient rounded-3xl shadow-xl p-6 md:p-12">
               {/* Heading */}
               <h2 className="text-2xl md:text-4xl font-semibold text-center text-[#1b3437] mb-8 md:mb-14">
-                Why Work With Unified
+                Why Work With Pramukh
               </h2>
 
               {/* Cards */}

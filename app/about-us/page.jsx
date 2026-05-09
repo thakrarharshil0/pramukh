@@ -664,7 +664,7 @@ export default function AboutUs() {
           {/* Right Side - Text Content */}
           <div className="flex-1 flex flex-col gap-4 indent-8">
             <p className="text-lg leading-relaxed text-gray-800 text-justify font-medium min-[2500px]:text-4xl">
-              Unified Post-Tensioning Systems LLP is a specialised engineering firm delivering unbonded and bonded post-tensioning solutions for modern construction across India.
+              Pramukh Post-Tensioning Systems PVT. LTD. is a specialised engineering firm delivering unbonded and bonded post-tensioning solutions for modern construction across India.
             </p>
 
             <p className="text-lg leading-relaxed text-gray-800 text-justify font-medium min-[2500px]:text-4xl">
@@ -672,7 +672,7 @@ export default function AboutUs() {
             </p>
 
             <p className="text-lg leading-relaxed text-gray-800 text-justify font-medium min-[2500px]:text-4xl">
-              Unified is built on dependability, consistency, and cost efficiency. Our systems enable longer spans, optimised slab behaviour, reduced structural weight, and predictable construction outcomes without compromising safety or quality.
+              Pramukh is built on dependability, consistency, and cost efficiency. Our systems enable longer spans, optimised slab behaviour, reduced structural weight, and predictable construction outcomes without compromising safety or quality.
             </p>
 
             <p className="text-lg leading-relaxed text-gray-800 text-justify font-medium min-[2500px]:text-4xl">
@@ -897,7 +897,7 @@ export default function AboutUs() {
             letterSpacing: '1px',
             fontFamily: "'DM Sans', sans-serif"
           }}>
-            Unified Post-Tensioning Systems LLP
+            Pramukh Post-Tensioning Systems PVT. LTD.
           </p>
           <p style={{
             fontSize: 'clamp(1.2rem, 4vw, 1.8rem)',
@@ -935,7 +935,7 @@ export default function AboutUs() {
 
             {/* Highlight Bar 1 */}
             <div className="bg-[#1a2a5e] text-white p-[15px_20px] md:p-[15px_25px] text-center font-[900] text-[1.1rem] md:text-[1.5rem] tracking-[1px] uppercase my-[15px] md:my-[20px]">
-              UNIFIED WAS CREATED TO CLOSE THIS GAP
+              PRAMUKH WAS CREATED TO CLOSE THIS GAP
             </div>
 
             {/* Paragraph 2 */}
@@ -945,7 +945,7 @@ export default function AboutUs() {
 
             {/* Paragraph 3 */}
             <p className="text-[1rem] md:text-[1.1rem] leading-[1.6] md:leading-[1.8] text-[#333] m-0 text-justify font-[700] indent-[30px] md:indent-[50px] pl-0">
-              Rather than treating PT as an isolated site task, Unified embedded a process-led methodology understanding structural intent, controlling tendon layouts and sequencing, executing with precision, and documenting every stressing operation against defined standards.
+              Rather than treating PT as an isolated site task, Pramukh embedded a process-led methodology understanding structural intent, controlling tendon layouts and sequencing, executing with precision, and documenting every stressing operation against defined standards.
             </p>
           </div>
 
@@ -1079,7 +1079,7 @@ export default function AboutUs() {
           <div className="flex-1 w-full bg-[#0095AA] rounded-[15px] p-[30px] md:p-[40px] shadow-[0_8px_30px_rgba(0,0,0,0.15)]">
             {/* Main Text */}
             <p className="text-[1rem] md:text-[1.1rem] text-white max-w-full md:max-w-[800px] leading-[1.7] m-[0_0_20px_0] text-center md:text-left">
-              Today, Unified stands as a trusted PT partner across multiple regions, delivering systems aligned with modern engineering requirements and the evolving expectations of India's construction industry.
+              Today, Pramukh stands as a trusted PT partner across multiple regions, delivering systems aligned with modern engineering requirements and the evolving expectations of India's construction industry.
             </p>
 
             {/* Explore Our Projects Heading */}
@@ -1263,7 +1263,7 @@ export default function AboutUs() {
               GEOGRAPHICAL <span style={{ color: '#0095AA' }}>PRESENCE</span>
             </h2>
             <p className="text-[1.1rem] text-[#4a5568] max-w-[800px] leading-[1.7] text-center mx-auto min-[2500px]:text-3xl min-[2500px]:max-w-[1400px]">
-              Unified has executed and managed post-tensioning projects across key construction markets in India. Click on the pins to explore our regional impact.
+              Pramukh has executed and managed post-tensioning projects across key construction markets in India. Click on the pins to explore our regional impact.
             </p>
           </div>
         </div>
@@ -1524,7 +1524,7 @@ export default function AboutUs() {
         }}
       >
         <div style={{ maxWidth: 1100, margin: '0 auto', padding: '0 24px' }}>
-          <h2 style={{ textAlign: 'center', fontSize: 32, fontWeight: 800, marginBottom: 8, color: '#1a2a5e' }}>Events at Unified</h2>
+          <h2 style={{ textAlign: 'center', fontSize: 32, fontWeight: 800, marginBottom: 8, color: '#1a2a5e' }}>Events at Pramukh</h2>
           <div style={{ textAlign: 'center', color: '#64748b', fontSize: 17, marginBottom: 28 }}>
             Moments that bring our teams together beyond project execution.
           </div>
@@ -1586,7 +1586,7 @@ export default function AboutUs() {
                   }}>
                     <img
                       src={img}
-                      alt={`Unified Event ${selectedYear} #${idx + 1}`}
+                      alt={`Pramukh Event ${selectedYear} #${idx + 1}`}
                       style={{
                         width: '100%',
                         height: 'auto',
@@ -1898,7 +1898,7 @@ export default function AboutUs() {
             {/* Text Content */}
             <div className="flex-1 flex flex-col gap-[20px] md:gap-[25px] indent-[2em] text-left min-[2500px]:max-w-[1200px]">
               <p className="text-[1rem] text-justify md:text-[1.1rem] text-[#333] m-0 font-['Segoe_UI'] font-[600] min-[2500px]:text-4xl">
-                <strong>Unified Post-Tensioning Systems LLP</strong> operates under a structured Quality Management System aligned with <strong>ISO 9001:2015</strong> standards.
+                <strong>Pramukh Post-Tensioning Systems PVT. LTD.</strong> operates under a structured Quality Management System aligned with <strong>ISO 9001:2015</strong> standards.
               </p>
 
               <p className="text-[1rem] text-justify md:text-[1.1rem] text-[#333] m-0 font-['Segoe_UI'] font-[600] min-[2500px]:text-4xl">
@@ -1910,7 +1910,7 @@ export default function AboutUs() {
               </h3>
 
               <p className="text-[1rem] text-justify md:text-[1.1rem] text-[#333] m-0 font-['Segoe_UI'] font-[600] min-[2500px]:text-4xl">
-                At Unified, quality is not treated as documentation compliance – it is embedded into how we design, plan, execute, and review every post-tensioning system.
+                At Pramukh, quality is not treated as documentation compliance – it is embedded into how we design, plan, execute, and review every post-tensioning system.
               </p>
 
               <p className="text-[1rem] text-justify md:text-[1.1rem] text-[#333] m-0 font-['Segoe_UI'] font-[600] min-[2500px]:text-4xl">

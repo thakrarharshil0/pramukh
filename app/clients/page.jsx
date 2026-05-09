@@ -63,7 +63,7 @@ export default function ClientsPage() {
 
     const targets = {
       first: 8,
-      second: 580,
+      second: 600,
       third: 84,
     };
 
@@ -192,11 +192,11 @@ export default function ClientsPage() {
                 </h2>
 
                 <h3 className="text-xl sm:text-2xl 3xl:text-4xl font-semibold mb-6 md:mb-8 text-center">
-                  Enterprises trust Unified
+                  Enterprises trust Pramukh
                 </h3>
 
                 <p className="text-sm sm:text-base 3xl:text-3xl text-white/90 leading-relaxed mb-8 md:mb-10 text-center px-2">
-                  Unified Post Tensioning Systems LLP collaborates with India’s most trusted and forward-thinking enterprises to deliver engineered certainty and long-term structural performance across some of the country’s most iconic and demanding projects. By combining advanced post-tensioning technology, expert engineering solutions, and rigorous quality standards, we ensure durability, efficiency, and excellence at every stage of construction.
+                  Pramukh Post Tensioning Systems PVT. LTD. collaborates with India’s most trusted and forward-thinking enterprises to deliver engineered certainty and long-term structural performance across some of the country’s most iconic and demanding projects. By combining advanced post-tensioning technology, expert engineering solutions, and rigorous quality standards, we ensure durability, efficiency, and excellence at every stage of construction.
                 </p>
 
 

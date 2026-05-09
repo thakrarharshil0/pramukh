@@ -1,7 +1,7 @@
 export default function Head() {
   return (
     <>
-      <title>Technology | Unified</title>
+      <title>Technology | Pramukh Post Tensioning Systems PVT. LTD</title>
     </>
   );
 }

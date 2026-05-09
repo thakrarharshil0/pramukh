@@ -196,7 +196,7 @@ const Navbar = () => {
     { title: 'Wedges (Bonded)', path: '/materials#bonded-wedges', keywords: 'bonded wedges precision-engineered anchorage grip locking' },
     { title: 'Ducts (Bonded)', path: '/materials#bonded-ducts', keywords: 'bonded ducts corrugated galvanized steel grout flow tendon protection improved bond performance flexible stability' },
     { title: 'Anchor Block (Bonded)', path: '/materials#bonded-anchor-block', keywords: 'bonded anchor block plates high-strength' },
-    { title: 'Execution Process', path: '/execution-process', keywords: 'execution process tendon profiling stressing hydraulic jacks anchorage locking controlled load transfer on-site installation elongation monitoring quality control optimized structural performance' },
+    { title: 'Project Workflow', path: '/project-workflow', keywords: 'project workflow tendon profiling stressing hydraulic jacks anchorage locking controlled load transfer on-site installation elongation monitoring quality control optimized structural performance' },
     { title: 'Our Projects (Applications)', path: '/our-projects', keywords: 'our projects portfolio applications solutions commercial residential industrial infrastructure long spans reduced structural weight crack control basements podiums high-rise buildings bridges heavy-load efficiently' },
     { title: 'Clientele', path: '/clients', keywords: 'clientele clients partners trust' },
     { title: 'Careers', path: '/career', keywords: 'career jobs opportunities hiring positions openings' },
@@ -293,7 +293,7 @@ const Navbar = () => {
     { name: 'ABOUT US', path: '/about-us', type: 'about' },
     { name: 'TECHNOLOGY', path: '/technology', type: 'technology' },
     { name: 'MATERIALS', path: '/materials', type: 'materials' },
-    { name: 'EXECUTION PROCESS', path: '/execution-process' },
+    { name: 'PROJECT WORKFLOW', path: '/project-workflow' },
     { name: 'OUR PROJECTS', path: '/our-projects' },
     { name: 'CLIENTELE', path: '/clients' },
     { name: 'CAREER', path: '/career' },
@@ -364,7 +364,7 @@ const Navbar = () => {
           <div className="flex gap-2 max-[992px]:absolute max-[992px]:left-4 max-[992px]:top-1/2 max-[992px]:-translate-y-1/2 max-[576px]:hidden">
             {[
               { Icon: FaFacebookF, href: "https://www.facebook.com/UnifiedPTS/" },
-              { Icon: FaInstagram, href: "https://www.instagram.com/unified_pts_llp/?hl=en" },
+              { Icon: FaInstagram, href: "https://www.instagram.com/pramukh_mss_pvt.ltd/" },
               { Icon: FaXTwitter, href: "https://x.com/Unified_PTS_LLP" },
               { Icon: FaLinkedinIn, href: "https://www.linkedin.com/company/unifiedpt/?viewAsMember=true" },
               { Icon: FaYoutube, href: "https://www.youtube.com/@UNIFIEDPTS1915" }
@@ -383,9 +383,9 @@ const Navbar = () => {
 
           <Link href="/" onClick={() => setIsMobileMenuOpen(false)}>
             <img
-              src="/assets/Unified New Logo.png"
-              alt="Unified"
-              className="h-[60px] max-[768px]:h-[48px] max-[576px]:h-[36px]"
+              src="/assets/Pramukh_Post _Tensioning_Systems_PVT.LTD.png"
+              alt="Pramukh Post-Tensioning Systems PVT. LTD."
+              className="h-[50px] max-[768px]:h-[48px] max-[576px]:h-[36px]"
             />
           </Link>
 

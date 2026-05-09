@@ -422,7 +422,7 @@ const Technology = () => {
         <div className="relative z-10 max-w-7xl mx-auto flex flex-col lg:flex-row items-center">
           <div className="lg:w-1/2 lg:pr-16 order-2 lg:order-1 indent-8">
             <p className="text-lg leading-relaxed text-gray-700 font-medium text-justify tracking-tight mb-4">
-              Unified Post-Tensioning Systems LLP is a specialised engineering firm delivering bonded and unbonded post-tensioning solutions for modern construction across India.
+              Pramukh Post-Tensioning Systems PVT. LTD is a specialised engineering firm delivering bonded and unbonded post-tensioning solutions for modern construction across India.
             </p>
 
             <p className="text-lg leading-relaxed text-gray-700 font-medium text-justify tracking-tight mb-4">
@@ -430,7 +430,7 @@ const Technology = () => {
             </p>
 
             <p className="text-lg leading-relaxed text-gray-700 font-medium text-justify tracking-tight mb-4">
-              Unified is built on dependability, consistency, and cost efficiency. Our systems enable longer spans, optimised slab behaviour, reduced structural weight, and predictable construction outcomes without compromising safety or quality.
+              Pramukh is built on dependability, consistency, and cost efficiency. Our systems enable longer spans, optimised slab behaviour, reduced structural weight, and predictable construction outcomes without compromising safety or quality.
             </p>
 
             <p className="text-lg leading-relaxed text-gray-700 font-medium text-justify tracking-tight">

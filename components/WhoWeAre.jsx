@@ -85,7 +85,7 @@ const WhoWeAre = () => {
             <div className="pt-content-grid">
               <div className="pt-text-content">
                 <p className="pt-paragraph">
-                  Unified specialises in the engineering and execution of
+                  Pramukh specialises in the engineering and execution of
                   post-tensioning systems where structural efficiency, speed of
                   construction, and long-span performance directly influence
                   project feasibility.
