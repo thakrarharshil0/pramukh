@@ -10,7 +10,7 @@ export default function CompletedProjects() {
   useEffect(() => {
     async function fetchProjects() {
       try {
-        const apiUrl = process.env.NEXT_PUBLIC_API_URL || "https://admin.unifiedpts.com/api";
+        const apiUrl = process.env.NEXT_PUBLIC_API_URL || "https://admin.pramukhpts.com/api";
         const fetchUrl = process.env.NODE_ENV === 'development' ? '/api-proxy' : apiUrl;
         const response = await fetch(`${fetchUrl}/projects`);
         if (response.ok) {

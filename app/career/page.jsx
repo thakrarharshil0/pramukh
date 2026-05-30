@@ -396,7 +396,7 @@ const Careers = () => {
   useEffect(() => {
     const fetchJobs = async () => {
       try {
-        const apiUrl = process.env.NEXT_PUBLIC_API_URL || "https://admin.unifiedpts.com/api";
+        const apiUrl = process.env.NEXT_PUBLIC_API_URL || "https://admin.pramukhpts.com/api";
         const fetchUrl = process.env.NODE_ENV === 'development' ? '/api-proxy' : apiUrl;
         const response = await fetch(`${fetchUrl}/job-openings`);
         if (!response.ok) throw new Error('Failed to fetch jobs');
@@ -460,7 +460,7 @@ const Careers = () => {
     }
 
     try {
-      const apiUrl = process.env.NEXT_PUBLIC_API_URL || "https://admin.unifiedpts.com/api";
+      const apiUrl = process.env.NEXT_PUBLIC_API_URL || "https://admin.pramukhpts.com/api";
       const fetchUrl = process.env.NODE_ENV === 'development' ? '/api-proxy' : apiUrl;
       const response = await fetch(`${fetchUrl}/job-applications`, {
         method: 'POST',

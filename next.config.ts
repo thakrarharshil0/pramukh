@@ -6,7 +6,7 @@ const nextConfig = {
     remotePatterns: [
       {
         protocol: 'https',
-        hostname: 'admin.unifiedpts.com',
+        hostname: 'admin.pramukhpts.com',
         pathname: '/storage/**',
       },
     ],
@@ -15,7 +15,7 @@ const nextConfig = {
     return [
       {
         source: '/api-proxy/:path*',
-        destination: 'https://admin.unifiedpts.com/api/:path*',
+        destination: 'https://admin.pramukhpts.com/api/:path*',
       },
     ];
   },

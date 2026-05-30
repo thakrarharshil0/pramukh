@@ -144,7 +144,7 @@ export default function ProjectsClient({ initialProjects }) {
               {/* Modal Image Area */}
               <div className="w-full lg:w-3/5 h-auto lg:h-auto min-h-[200px] flex-shrink-0 relative bg-gray-100 flex items-center justify-center overflow-hidden">
                 <img
-                  src={selectedProject.image ? `${process.env.NEXT_PUBLIC_API_URL?.replace('/api', '') || "https://admin.unifiedpts.com"}/storage/${selectedProject.image}` : '/placeholder-image.jpg'}
+                  src={selectedProject.image ? `${process.env.NEXT_PUBLIC_API_URL?.replace('/api', '') || "https://admin.pramukhpts.com"}/storage/${selectedProject.image}` : '/placeholder-image.jpg'}
                   alt={selectedProject.name}
                   className="w-full h-auto max-h-[40vh] lg:max-h-full object-contain"
                 />

@@ -13,7 +13,7 @@ export default function AnalyticsTracker() {
         if (typeof window === "undefined" || !pathname) return;
 
         const trackVisit = async () => {
-            const apiUrl = process.env.NEXT_PUBLIC_API_URL || "https://admin.unifiedpts.com/api";
+            const apiUrl = process.env.NEXT_PUBLIC_API_URL || "https://admin.pramukhpts.com/api";
             const url = process.env.NODE_ENV === 'development' ? '/api-proxy' : apiUrl;
             // Get the current hash if any, and build full valid URL
             const hash = window.location.hash;
@@ -62,7 +62,7 @@ export default function AnalyticsTracker() {
     useEffect(() => {
         const handleBeforeUnload = () => {
             if (currentVisitId.current) {
-                const apiUrl = process.env.NEXT_PUBLIC_API_URL || "https://admin.unifiedpts.com/api";
+                const apiUrl = process.env.NEXT_PUBLIC_API_URL || "https://admin.pramukhpts.com/api";
                 const url = process.env.NODE_ENV === 'development' ? '/api-proxy' : apiUrl;
                 fetch(`${url}/leave-page`, {
                     method: "POST",

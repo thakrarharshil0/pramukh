@@ -1,7 +1,7 @@
 import ProjectsClient from './ProjectsClient';
 
 async function getProjects() {
-  const apiUrl = process.env.NEXT_PUBLIC_API_URL || "https://admin.unifiedpts.com/api";
+  const apiUrl = process.env.NEXT_PUBLIC_API_URL || "https://admin.pramukhpts.com/api";
   const fetchUrl = (process.env.NODE_ENV === 'development' && typeof window !== 'undefined') ? '/api-proxy' : apiUrl;
   try {
     const response = await fetch(`${fetchUrl}/projects`, {

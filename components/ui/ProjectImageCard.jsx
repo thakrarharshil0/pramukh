@@ -7,7 +7,7 @@ export default function ProjectImageCard({ project, index, onClick }) {
   const projectName = project.name;
 
   // Construct the correct image url pointing to the Laravel storage API
-  const url = process.env.NEXT_PUBLIC_API_URL?.replace('/api', '') || "https://admin.unifiedpts.com";
+  const url = process.env.NEXT_PUBLIC_API_URL?.replace('/api', '') || "https://admin.pramukhpts.com";
   const imageSrc = project.image ? `${url}/storage/${project.image}` : '/placeholder-image.jpg';
 
   return (
