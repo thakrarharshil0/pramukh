@@ -52,7 +52,7 @@ export default function VideoScrollSection() {
       className="relative min-h-[50vh] flex items-end justify-center bg-white py-12"
     >
       <a
-        href="https://youtu.be/kyOsFEB6Oww?si=E3ev-x1WGzJVkwVX"
+        href="https://youtu.be/gKX1PBxiRrw"
         target="_blank"
         rel="noopener noreferrer"
         className="flex justify-center w-full"
@@ -63,7 +63,7 @@ export default function VideoScrollSection() {
         >
           <video
             ref={videoRef}
-            src="/assets/home-video.mp4"
+            src="/assets/pramukh_website_intro.mp4"
             autoPlay
             muted={isMuted}
             loop

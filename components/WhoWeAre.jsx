@@ -109,7 +109,7 @@ const WhoWeAre = () => {
 
                 >
                   <source
-                    src="/assets/freepik__aerial-view-of-a-cityscape-featuring-tall-building__66635.mp4"
+                    src="/assets/magnific_aerial-wide-shot-of-the-pramukhpts.mp4"
                     type="video/mp4"
                   />
                 </video>

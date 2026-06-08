@@ -46,7 +46,7 @@ export default function HomeClient() {
           transition: 'opacity 0.5s',
         }}>
           <video
-            src="/assets/logo.mp4"
+            src="/assets/pramukh_logo_reveal.mp4"
             autoPlay
             muted
             playsInline

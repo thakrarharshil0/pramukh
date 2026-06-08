@@ -37,7 +37,7 @@ const BrochureModal = ({ isOpen, onClose, brochurePath }) => {
 
       if (res.ok) {
         // Trigger download more robustly
-        const filename = brochurePath.split("/").pop() || "Unified_Brochure.pdf";
+        const filename = brochurePath.split("/").pop() || "Pramukh_Brochure.pdf";
         const link = document.createElement("a");
         link.style.display = "none";
         link.href = brochurePath;

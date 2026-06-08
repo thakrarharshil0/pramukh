@@ -363,11 +363,11 @@ const Navbar = () => {
           {/* Social icons hidden on mobile */}
           <div className="flex gap-2 max-[992px]:absolute max-[992px]:left-4 max-[992px]:top-1/2 max-[992px]:-translate-y-1/2 max-[576px]:hidden">
             {[
-              { Icon: FaFacebookF, href: "https://www.facebook.com/UnifiedPTS/" },
-              { Icon: FaInstagram, href: "https://www.instagram.com/pramukh_mss_pvt.ltd/" },
-              { Icon: FaXTwitter, href: "https://x.com/Unified_PTS_LLP" },
-              { Icon: FaLinkedinIn, href: "https://www.linkedin.com/company/unifiedpt/?viewAsMember=true" },
-              { Icon: FaYoutube, href: "https://www.youtube.com/@UNIFIEDPTS1915" }
+              { Icon: FaFacebookF, href: "https://www.facebook.com/profile.php?id=61590569159811" },
+              { Icon: FaInstagram, href: "https://www.instagram.com/pramukh_pts_pvt.ltd" },
+              { Icon: FaXTwitter, href: "https://x.com/Pramukh_pts" },
+              { Icon: FaLinkedinIn, href: "https://www.linkedin.com/company/pramukh-pts" },
+              { Icon: FaYoutube, href: "https://www.youtube.com/@pramukhpts" }
             ].map(({ Icon, href }, i) => (
               <a
                 key={i}

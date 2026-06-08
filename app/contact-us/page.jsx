@@ -401,7 +401,7 @@ export default function ContactPage() {
       <BrochureModal
         isOpen={isBrochureModalOpen}
         onClose={() => setIsBrochureModalOpen(false)}
-        brochurePath="/assets/Unified_Brochure.pdf"
+        brochurePath="/assets/Pramukh_Brochure.pdf"
       />
 
       <style jsx>{`
