@@ -124,7 +124,7 @@ const Footer = () => {
             <div className="space-y-4 min-[2500px]:space-y-8 text-sm min-[2500px]:text-xl text-slate-300">
               <div className="flex items-start gap-3 min-[2500px]:gap-5 justify-center lg:justify-start">
                 <FaMapMarkerAlt className="text-[#0095AA] mt-1 min-[2500px]:text-2xl" />
-                <p>Pramukh Residency, 5th Floor, Plot No.38, D.V. Colony, Minister Road, Hyderabad, Telangana - 500003</p>
+                <p>301, 3rd floor, Masetty Plaza, 1-8-206, Prenderghast Road, Secunderabad, Telangana-500003</p>
               </div>
               <div className="flex items-start gap-3 min-[2500px]:gap-5 justify-center lg:justify-start">
                 <FaPhone className="text-[#0095AA] mt-1 min-[2500px]:text-2xl scale-x-[-1]" />
