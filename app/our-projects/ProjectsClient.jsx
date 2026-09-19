@@ -5,8 +5,31 @@ import Container from '@/components/ui/Container';
 import ProjectImageCard from '@/components/ui/ProjectImageCard';
 
 export default function ProjectsClient({ initialProjects }) {
-  const [projects] = useState(initialProjects || []);
+  const [projects, setProjects] = useState(initialProjects || []);
   const [selectedProject, setSelectedProject] = useState(null);
+  const [loading, setLoading] = useState(false);
+
+  useEffect(() => {
+    if (!initialProjects || initialProjects.length === 0) {
+      setLoading(true);
+      async function fetchProjects() {
+        try {
+          const apiUrl = process.env.NEXT_PUBLIC_API_URL || "https://admin.pramukhpts.com/api";
+          const fetchUrl = process.env.NODE_ENV === 'development' ? '/api-proxy' : apiUrl;
+          const response = await fetch(`${fetchUrl}/projects`);
+          if (response.ok) {
+            const data = await response.json();
+            setProjects(data);
+          }
+        } catch (error) {
+          console.error("Failed to fetch projects on client:", error);
+        } finally {
+          setLoading(false);
+        }
+      }
+      fetchProjects();
+    }
+  }, [initialProjects]);
 
   useEffect(() => {
     if (selectedProject) {
@@ -99,7 +122,11 @@ export default function ProjectsClient({ initialProjects }) {
         {/* Projects Grid Section */}
         <section className="py-24 bg-white">
           <Container>
-            {projects.length === 0 ? (
+            {loading ? (
+              <div className="w-full text-center py-12">
+                <p className="mt-4 text-gray-500 font-semibold">Loading projects...</p>
+              </div>
+            ) : projects.length === 0 ? (
               <div className="w-full text-center py-12">
                 <p className="mt-4 text-gray-500 font-semibold">No active projects found at the moment.</p>
               </div>
